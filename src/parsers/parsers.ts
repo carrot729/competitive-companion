@@ -17,6 +17,7 @@ import { DOMjudgeContestParser } from './contest/DOMjudgeContestParser';
 import { ECNUOnlineJudgeContestParser } from './contest/ECNUOnlineJudgeContestParser';
 import { EolympBasecampContestParser } from './contest/EolympBasecampContestParser';
 import { EolympNormalContestParser } from './contest/EolympNormalContestParser';
+import { EtigerContestParser } from './contest/EtigerContestParser';
 import { FZUOnlineJudgeContestParser } from './contest/FZUOnlineJudgeContestParser';
 import { HackerEarthContestParser } from './contest/HackerEarthContestParser';
 import { HackerRankContestParser } from './contest/HackerRankContestParser';
@@ -82,6 +83,7 @@ import { DMOJProblemParser } from './problem/DMOJProblemParser';
 import { ECNUOnlineJudgeProblemParser } from './problem/ECNUOnlineJudgeProblemParser';
 import { EolympBasecampProblemParser } from './problem/EolympBasecampProblemParser';
 import { EolympNormalProblemParser } from './problem/EolympNormalProblemParser';
+import { EtigerProblemParser } from './problem/EtigerProblemParser';
 import { FZUOnlineJudgeProblemParser } from './problem/FZUOnlineJudgeProblemParser';
 import { GoogleCodingCompetitionsProblemParser } from './problem/GoogleCodingCompetitionsProblemParser';
 import { HackerEarthCodeArenaParser } from './problem/HackerEarthCodeArenaParser';
@@ -235,6 +237,9 @@ export const parsers: Parser[] = [
   new EolympBasecampProblemParser(),
   new EolympNormalContestParser(),
   new EolympBasecampContestParser(),
+
+  new EtigerProblemParser(),
+  new EtigerContestParser(),
 
   new FZUOnlineJudgeProblemParser(),
   new FZUOnlineJudgeContestParser(),
