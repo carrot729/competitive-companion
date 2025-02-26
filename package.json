@@ -53,9 +53,12 @@
     "cross-env": "^7.0.3",
     "esbuild": "^0.25.0",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "eslint": "9.20.1",
     "eslint-config-prettier": "^10.0.1",
 =======
+=======
+>>>>>>> refs/remotes/origin/master
     "eslint": "9.17.0",
     "eslint-config-prettier": "^9.1.0",
 >>>>>>> cc44a4a (Bump esbuild in the npm_and_yarn group across 1 directory)

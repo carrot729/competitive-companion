@@ -42,6 +42,7 @@ A browser extension which parses competitive programming problems from various o
 
 | Website                    | Problem parser | Contest parser |
 <<<<<<< HEAD
+<<<<<<< HEAD
 |----------------------------|----------------|----------------|
 | 33OJ                       | ✔              | ✔              |
 | A2 Online Judge            | ✔              | ✔              |
@@ -153,6 +154,8 @@ A browser extension which parses competitive programming problems from various o
 | ZOJ                        | ✔              |                |
 | ZUFEOJ                     | ✔              | ✔              |
 =======
+=======
+>>>>>>> refs/remotes/origin/master
 | -------------------------- | -------------- | -------------- |
 | 33OJ                       | ✔             | ✔             |
 | A2 Online Judge            | ✔             | ✔             |
@@ -257,7 +260,10 @@ A browser extension which parses competitive programming problems from various o
 | yukicoder                  | ✔             | ✔             |
 | ZOJ                        | ✔             |                |
 | ZUFEOJ                     | ✔             | ✔             |
+<<<<<<< HEAD
 >>>>>>> 3b73d77 (fix: 修改文件名大小写)
+=======
+>>>>>>> refs/remotes/origin/master
 
 ## Custom tools
 
@@ -390,6 +396,11 @@ PNPM: 10.2.0
 
 Third-party libraries that can be found in the minified extension:
 
+<<<<<<< HEAD
+=======
+Third-party libraries that can be found in the minified extension:
+
+>>>>>>> refs/remotes/origin/master
 - [nanobar 0.4.2](https://github.com/jacoborus/nanobar/blob/v0.4.2/nanobar.js)
 - [snarkdown 2.0.0](https://github.com/developit/snarkdown/blob/2.0.0/src/index.js)
 - [pdfjs-dist 4.2.67](https://cdn.jsdelivr.net/npm/pdfjs-dist@4.2.67/build/pdf.mjs)
